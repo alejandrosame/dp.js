@@ -6,3 +6,7 @@
 	path = third_party/differential-privacy
 	url = https://github.com/google/differential-privacy
 	branch = master
+[submodule "third_party/abseil-cpp"]
+	path = third_party/abseil-cpp
+	url = https://github.com/abseil/abseil-cpp
+	branch = master
