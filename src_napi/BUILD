@@ -8,12 +8,16 @@ cc_library(
   name = "status_js",
   srcs = ["status_js.cc"],
   hdrs = ["status_js.h"],
-  deps = ["@google_dp//differential_privacy/base:status"],
+  copts  = node_binding_copts(),
+  deps = [
+    "@google_dp//differential_privacy/base:status",
+    "@node_binding"
+  ],
 )
 
 
 node_binding(
-    name = "name",
+    name = "openmined-dp",
     srcs = [
       "binding.cc"
     ],

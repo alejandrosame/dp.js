@@ -4,3 +4,5 @@ build
 bazel-*
 third_party/
 .vscode/
+dist
+test/*.node

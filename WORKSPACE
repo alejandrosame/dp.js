@@ -27,6 +27,10 @@ git_repository(
     remote = "https://github.com/google/differential-privacy",
 )
 
+local_repository(
+    name = "google_dp",
+    path = "third_party/differential-privacy",
+)
 
 git_repository(
     name = "com_google_absl",
