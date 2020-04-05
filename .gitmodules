@@ -1,0 +1,8 @@
+[submodule "third_party/node-addon-api"]
+	path = third_party/node-addon-api
+	url = https://github.com/nodejs/node-addon-api
+	branch = master
+[submodule "third_party/differential-privacy"]
+	path = third_party/differential-privacy
+	url = https://github.com/google/differential-privacy
+	branch = master
