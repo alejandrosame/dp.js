@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/third_party/node-addon-api",
+                "/home/simcof/.cache/bazel/_bazel_simcof/0eb4cf16fafd1e373c4a6768430c74ac/external/node_binding",
+                "${workspaceFolder}/third_party/differential-privacy",
+                "${workspaceFolder}/third_party/abseil-cpp",
+                "/home/simcof/.cache/bazel/_bazel_simcof/0eb4cf16fafd1e373c4a6768430c74ac/external/node_addon_api/13.11.0/include/node"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

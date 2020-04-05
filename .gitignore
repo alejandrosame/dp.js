@@ -1,0 +1,8 @@
+node_modules
+*.log
+build
+bazel-*
+third_party/
+.vscode/
+dist
+test/*.node
